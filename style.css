@@ -33,3 +33,17 @@ body {
   color: #bbbbbb;
   line-height: 1.5;
 } 
+
+/*compétences*/
+
+.comp {
+  display: flex;
+  justify-content: center ;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.comp img {
+  width: 70px;
+} 
