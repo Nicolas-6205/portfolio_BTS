@@ -7,8 +7,8 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient (180deg, #05001a, #2b0040);
-  color: blue;
+  background: linear-gradient(180deg, #05001a, #2b0040);
+  color: white;
 } 
 
 .en-tête {
