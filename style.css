@@ -22,3 +22,14 @@ body {
   font-size: 40px;
   line-height: 1.2;
 } 
+
+.sous-titre {
+  margin-top: 10px;
+  color: gray;
+}
+
+.droite {
+  font-style: italic;
+  color: #bbbbbb;
+  line-height: 1.5;
+} 
