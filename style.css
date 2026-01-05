@@ -72,3 +72,32 @@ body {
   transition: background-color 0.2s;
   background-color: #3f72af;
 } 
+
+/*adaptation du site sur téléphone*/
+
+@media (max-width: 768px) {
+
+  .en-tête {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .gauche h1 {
+    font-size: 28px;
+  }
+
+  .bouton-aligné {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .comp {
+    flex-wrap: wrap;
+  }
+
+  .comp img {
+    width: 60px;
+  }
+
+}
