@@ -1,1 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: pink;
+  margin: 0;
+  padding: 50px;
+}
 
+#colorbox {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  background-color: red;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0.4px 10px rgba(0,0,0,0.2);
+}
+
+#colorbox:active {
+  trabsform: scale(0.05);
+}
